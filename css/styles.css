@@ -1,0 +1,375 @@
+/**
+ * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)
+ * http://cssreset.com
+ * Copyright 2012 Yahoo! Inc. All rights reserved.
+ * http://yuilibrary.com/license/
+ */
+/*
+	TODO will need to remove settings on HTML since we can't namespace it.
+	TODO with the prefix, should I group by selector or property for weight savings?
+*/
+/*
+	TODO remove settings on BODY since we can't namespace it.
+*/
+/*
+	TODO test putting a class on HEAD.
+		- Fails on FF.
+*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,
+img {
+	border:0;
+}
+/*
+	TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+*/
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style:normal;
+	font-weight:normal;
+}
+ 
+ol,
+ul {
+	list-style:none;
+}
+ 
+caption,
+th {
+	text-align:left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,
+q:after {
+	content:'';
+}
+abbr,
+acronym {
+	border:0;
+	font-variant:normal;
+}
+/* to preserve line-height and selector appearance */
+sup {
+	vertical-align:text-top;
+}
+sub {
+	vertical-align:text-bottom;
+}
+input,
+textarea,
+select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+/*to enable resizing for IE*/
+input,
+textarea,
+select {
+	*font-size:100%;
+}
+/*because legend doesn't inherit in IE */
+legend {
+	color:#000;
+}
+
+
+
+
+
+@font-face{
+    font-family: FranklinGothicBook; 
+    src: url("../fonts/FranklinGothicBook.TTF") format("truetype"),
+    
+}
+
+.color {
+	/*outline: 1px solid red;*/
+
+
+}
+.wrapper {
+	background: url(../images/back.png) no-repeat;
+	min-height: 807px;
+}
+.logo img {
+	width: 200px;
+	margin-top: 40px;
+	
+}
+header {
+	min-height: 178px;
+	background: rgba(20,53,70,0.9);
+}
+.lang {
+	font-family: 'Franklin Gothic Book';
+	color: rgb(111,113,116);
+	text-decoration: none;
+}
+.active {
+	color: rgb(6,79,137);
+}
+.speech {
+	margin-left: 18px;
+}
+.men {
+	color: rgb(246,246,246);
+	text-decoration: none;
+	font-family: 'Franklin Gothic Book';
+
+}
+nav menu ul li {
+	float: left;
+	/*margin-left: 16px;*/
+	/*margin-right: 17px;*/
+	/*padding-right: 19px;*/
+	/*padding-left: 19px;*/
+	padding: 1px 19px;
+
+
+
+
+}
+nav menu {
+	font-size: 1.2em;
+    margin-top: 65px;
+}
+nav menu ul li:hover {
+	padding: 0 18px;
+	border: 1px solid #00c6ff;
+	-moz-border-radius: 10px / 9px;
+	-webkit-border-radius: 10px / 9px;
+	border-radius: 10px / 9px; /* border radius */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /* prevents bg color from leaking outside the border */
+} 
+.tel img {
+	width: 21px;
+	height: 21px;
+	margin-right: 12px;
+
+}
+.tel {
+	color: #fff; 
+	font-family: "Franklin Gothic Book";
+	font-size: 25px;
+
+}
+.contacts {
+	margin-top: 15px;
+	margin-left: 130px;
+
+}
+.socicon {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background-size: cover;
+	margin: 10px 7px;
+
+}
+.vk {
+	background-image: url("../images/vk.png");
+
+}
+.vk:hover {
+	background-image: url("../images/vk-hover.gif");
+
+
+}
+.ytube {
+	background-image: url("../images/ytube.gif");
+	
+}
+.ytube:hover {
+	background-image: url("../images/iytube_hover.jpg");
+}
+.inst {
+	background-image: url("../images/inst.gif");
+}
+.inst:hover {
+	background-image: url("../images/inst_hover.gif");
+}
+.facebook {
+	background-image: url("../images/fb.gif");
+}
+.facebook:hover {
+	background-image: url("../images/fb_hover.gif");
+}
+.pinterest {
+	background-image: url("../images/Pinterest.gif");
+}
+.pinterest:hover {
+	background-image: url("../images/pinter_hover.png");
+}
+.caption {
+	color: #fff;
+	font-family: "Franklin Gothic Book";
+	font-size: 40px;
+	text-align: center;
+	margin-top: 77px;
+	
+}
+.slide {
+	font-family: "Franklin Gothic Book";
+	font-size: 18px;
+	text-align: center;
+}
+.color1 {
+	color: #fff; 
+
+}
+
+.color2 {
+	color: #B4A1BE;
+}
+
+.color3 {
+	color: #B2AECD;
+
+}
+
+.color4 {
+	color: #FFF9D0;
+
+}
+
+.color5 {
+	color: #FFD0F0;
+
+}
+
+.oversteps {
+	max-width: 1170px;
+	margin: 0 auto;
+	margin-top: 385px;
+
+}
+.item p {
+	color: #fff;
+	font-family: "Franklin Gothic Book";
+	font-size: 18px;
+	text-align: center;
+
+}
+.move {
+	top: 85px;
+}
+.blocks {
+	background: #143546;
+
+}
+.caption2 {
+	color: #e5e2e2;
+	font-family: "Franklin Gothic Book";
+	font-size: 36px;
+	text-align: center;
+	font-weight: 700;
+	padding-top: 55px;
+	padding-bottom: 30px
+
+
+}
+.pattern {
+	display: block;
+	margin: 0 auto;
+	
+}
+.block1 a {
+	max-width: 1170px;
+	background-image: url("../images/back_block1.gif");
+	height: 223px;
+	
+
+}
+.block1 a:hover {
+	background-image: url("../images/back_block1_hover.gif");
+
+}
+.block2 a {
+	max-width: 276px;
+	background-image: url("../images/back_block2.gif");
+	height: 300px;
+	
+
+}
+.block2 a:hover {
+	background-image: url("../images/back_block2_hover.gif");
+
+}
+.block3 a {
+	max-width: 276px;
+	background-image: url("../images/back_block3.gif");
+	height: 300px;
+	
+
+}
+.block3 a:hover {
+	background-image: url("../images/back_block3_hover.gif");
+
+}
+.block4 a {
+	max-width: 276px;
+	background-image: url("../images/back_block4.gif");
+	height: 300px;
+	
+
+}
+.block4 a:hover {
+	background-image: url("../images/back_block4_hover.gif");
+
+}
+
+
+
+
+
+
+
